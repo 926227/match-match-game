@@ -1,6 +1,3 @@
-# Empty project template
-Empty project with configured webpack, typescript and es-lint
-
 ### Easy to use:
 + Download project files
 + Go to project root directory
