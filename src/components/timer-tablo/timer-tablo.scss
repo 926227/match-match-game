@@ -1,0 +1,18 @@
+@import "/src/scss/variables";
+
+.timer-tablo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 256px;
+  height: 64px;
+
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.4);
+
+  border-radius: 4px;
+  background-color: $light-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+}

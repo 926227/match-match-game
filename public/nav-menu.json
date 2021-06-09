@@ -1,0 +1,17 @@
+[
+  {
+    "name": "about game",
+    "icon": "about-menu.svg",
+    "path": "about"
+  },
+  {
+    "name": "best score",
+    "icon": "best-menu.svg",
+    "path": "best"
+  },
+  {
+    "name": "game settings",
+    "icon": "settings-menu.svg",
+    "path": "settings"
+  }
+]

@@ -1,0 +1,20 @@
+export const settings = {
+  flipToBackClass: 'flip-to-back',
+  prepareShowCardTime: 30000,
+  flipDelay: 400,
+  cardImagesPath: './card-images/',
+  pathToNavMenuSettings: './nav-menu.json',
+  pathToImagesSettings: './card-images/images.json',
+  currentCategoryIndex: 0,
+  currentDifficulty: 16,
+  maxInputLength: 30,
+  dbName: '926227',
+  currentUser: {
+    firstName: '',
+    lastName: '',
+    email: '',
+    result: 0,
+    avatar: '',
+  },
+  avatarFielTypes: ['jpg', 'gif', 'jpeg', 'png', 'img'],
+};

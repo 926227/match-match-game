@@ -1,0 +1,38 @@
+@import "/src/scss/variables";
+
+.nav-menu{
+  display: flex;
+  align-self: stretch;
+  margin: 0 auto;
+}
+
+.nav-menu__icon{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 7px;
+
+  border-radius: 100%;
+  background-color: $light-color;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+.nav-menu__name{
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: capitalize;
+  color:$light-color;
+}
+.nav-menu__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.nav-menu__item.active {
+  background-color: #1e88e5;
+}
